@@ -1,0 +1,177 @@
+*{
+    /* background-color: black; */
+    margin-top: 8px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+header{
+    display: flex;
+    background-color: rgb(38, 35, 35);
+}
+
+.headermid{
+    /* background-color: rgb(218, 207, 207); */
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.headermid>.box{
+    background-color:rgb(38, 35, 35) ;
+}
+
+.logo{
+    background-color: rgb(38, 35, 35);
+    margin-left: 120px;
+}
+
+.logo .headermid .img1{
+    background-color: rgb(222, 207, 207);
+    /* margin-left: 120px; */
+}
+.box{
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+    
+.seacrh{
+    height: 30px;
+    width:210px; 
+    margin-top: 30px;
+    margin-left: 65px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.searcbox{
+    height: 40px;
+    width: 95.5vw;
+    margin-left:2vw;
+    margin-right:2vw;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    border:  2px solid rgb(246, 242, 242);
+    background-color: black;
+    font-size: 16px;
+}
+.second1{
+    display: flex;
+}
+.raju{
+    height:40px;
+    cursor: pointer;
+    width: 12vw;
+    margin-left: 8px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    /* font-weight: bold; */
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    /* border-radius: 12px; */
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%
+    
+    /* cursor: pointer;  */
+}
+.f2{
+    background-color: red;
+}
+.f1{
+    background-color: green;
+}
+.f3{
+    background-color: rgb(96, 122, 150);
+}
+.f4{
+    background-color: yellow;
+}
+.first1{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.raju:hover{
+    background-color: red;
+    color:green;
+    transition-duration: 1s;
+}
+
+.raju2{
+        
+        height:40px;
+        cursor: pointer;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 8px;
+        background-color: rgb(180, 34, 59);
+        color: white;
+        display: flex;
+        cursor: pointer;
+        
+        /* font-weight: bold; */
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        /* border-radius: 12px; */
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+        
+        
+        
+}
+.second1{
+    
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 150px;
+    
+    /* width: 220px; */
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 600px;
+}
+.imgkeliye{
+    width: 220px;
+    border: 5px solid #f90; /* Outer border color */
+    box-shadow: 0 0 20px 5px #f90, 0 0 30px 10px red inset;
+
+}
+h3{
+    color: white;
+    margin-top:20px;
+
+
+}
+.film{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
